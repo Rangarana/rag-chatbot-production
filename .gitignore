@@ -1,0 +1,39 @@
+# CRITICAL — API Keys & Secrets
+.env
+*.env
+secrets.py
+config.ini
+
+# FAISS index (too large for GitHub)
+data/faiss_index/
+*.faiss
+*.pkl
+
+# Uploaded documents (user data — don't commit)
+data/sample_docs/*.pdf
+data/sample_docs/*.txt
+data/sample_docs/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
